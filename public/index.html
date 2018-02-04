@@ -21,91 +21,8 @@
     <!-- <link rel="stylesheet" href="css/colors/green.css"> -->
     <!-- Skin switcher -->
     <!-- Manually link your desire skin -->
-    <style type="text/css">
-    .skins {
-        position: fixed;
-        top: 190px;
-        left: -120px;
-        transition: .3s ease-in-out;
-        z-index: 1000;
-    }
-    
-    .skins:hover {
-        left: 0;
-    }
-    
-    .skin-colors {
-        list-style: none;
-        padding: 20px;
-        margin: 0;
-        background-color: #fff;
-        width: 120px;
-        border: 1px solid #e7e7e7;
-    }
-    
-    .skin-colors li {
-        position: relative;
-        display: inline-block;
-        width: 32px;
-        height: 32px;
-        cursor: pointer;
-        margin: -3px;
-        line-height: 0;
-        transition: .3s ease-in-out;
-    }
-    
-    .skin-colors li:hover {
-        opacity: .7;
-    }
-    
-    .skin-colors li.active::before {
-        content: "\f00c";
-        font-family: FontAwesome;
-        font-size: 20px;
-        width: 32px;
-        line-height: 32px;
-        text-align: center;
-        position: absolute;
-        color: #fff;
-    }
-    
-    .skin-toggler {
-        position: absolute;
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        right: -49px;
-        top: 0;
-        background-color: #fff;
-        font-size: 30px;
-        text-align: center;
-        line-height: 50px;
-        color: #888;
-        border: 1px solid #e7e7e7;
-        border-left: 0;
-    }
-    
-    .skin-toggler .fa {
-        transform: rotate(30deg);
-        -webkit-transition: 2s;
-        -moz-transition: 2s;
-        -ms-transition: 2s;
-        -o-transition: 2s;
-        transition: 2s;
-        animation: gear 1s infinite;
-    }
-    
-    @keyframes gear {
-        0% {
-            transform: rotate(0deg)
-        }
-        100% {
-            transform: rotate(360deg)
-        }
-    }
-    </style>
+    <style type="text/css">.skin-colors li,.skins{transition:.3s ease-in-out}.skin-colors,.skin-toggler{background-color:#fff;border:1px solid #e7e7e7}.skins{position:fixed;top:190px;left:-120px;z-index:1000}.skins:hover{left:0}.skin-colors{list-style:none;padding:20px;margin:0;width:120px}.skin-colors li{position:relative;display:inline-block;width:32px;height:32px;cursor:pointer;margin:-3px;line-height:0}.skin-colors li:hover{opacity:.7}.skin-colors li.active::before{content:"\f00c";font-family:FontAwesome;font-size:20px;width:32px;line-height:32px;text-align:center;position:absolute;color:#fff}.skin-toggler{position:absolute;display:inline-block;width:50px;height:50px;right:-49px;top:0;font-size:30px;text-align:center;line-height:50px;color:#888;border-left:0}.skin-toggler .fa{transform:rotate(30deg);-webkit-transition:2s;-moz-transition:2s;-ms-transition:2s;-o-transition:2s;transition:2s;animation:gear 1s infinite}@keyframes gear{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}</style>
 </head>
-
 <body id="up">
     <!-- Preloader -->
     <div id="preloader">
@@ -175,17 +92,13 @@
             </div>
             <!-- first row -->
             <div class="row">
-                <div class="col-md-6 wow fadeInUp">
-                    <div class="info info-horizontal">
-                        <div class="description">
-                            <h4 class="info-title">VIDEO</h4>
-                            <object width="420" height="315"
-data="https://www.youtube.com/v/tgbNymZ7vqY">
-</object>
-                        </div>
+                <div class="col-md-8 wow fadeInUp">
+                    <div>
+                            <h4 class="info-title"></h4><br>
+                            <object width="620" height="365" data="https://www.youtube.com/embed/afJuNVDmB8w"></object>
                     </div>
                 </div>
-                <div class="col-md-6 wow fadeInUp">
+                <div class="col-md-4 wow fadeInUp">
                     <div class="info info-horizontal">
                         <div class="description">
                             <h4 class="info-title">Samarinda Smart City</h4>
