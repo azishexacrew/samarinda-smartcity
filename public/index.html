@@ -22,71 +22,7 @@
     <!-- Skin switcher -->
     <!-- Manually link your desire skin -->
     <style type="text/css">.skin-colors li,.skins{transition:.3s ease-in-out}.skin-colors,.skin-toggler{background-color:#fff;border:1px solid #e7e7e7}.skins{position:fixed;top:190px;left:-120px;z-index:1000}.skins:hover{left:0}.skin-colors{list-style:none;padding:20px;margin:0;width:120px}.skin-colors li{position:relative;display:inline-block;width:32px;height:32px;cursor:pointer;margin:-3px;line-height:0}.skin-colors li:hover{opacity:.7}.skin-colors li.active::before{content:"\f00c";font-family:FontAwesome;font-size:20px;width:32px;line-height:32px;text-align:center;position:absolute;color:#fff}.skin-toggler{position:absolute;display:inline-block;width:50px;height:50px;right:-49px;top:0;font-size:30px;text-align:center;line-height:50px;color:#888;border-left:0}.skin-toggler .fa{transform:rotate(30deg);-webkit-transition:2s;-moz-transition:2s;-ms-transition:2s;-o-transition:2s;transition:2s;animation:gear 1s infinite}@keyframes gear{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}</style>
-    
-    <style type="text/css">
-        html {
-    background-color: #f3f3f3;
-}
-.wrapper {
-    max-width: 680px;
-    margin: 60px auto;
-    padding: 0 20px;
-}
-
-.youtube {
-    background-color: #000;
-    margin-bottom: 30px;
-    position: relative;
-    padding-top: 56.25%;
-    overflow: hidden;
-    cursor: pointer;
-}
-.youtube img {
-    width: 100%;
-    top: -16.82%;
-    left: 0;
-    opacity: 0.7;
-}
-.youtube .play-button {
-    width: 90px;
-    height: 60px;
-    background-color: #333;
-    -webkit-box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
-            box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
-    z-index: 1;
-    opacity: 0.8;
-    border-radius: 6px;
-}
-.youtube .play-button:before {
-    content: "";
-    border-style: solid;
-    border-width: 15px 0 15px 26.0px;
-    border-color: transparent transparent transparent #fff;
-}
-.youtube img,
-.youtube .play-button {
-    cursor: pointer;
-}
-.youtube img,
-.youtube iframe,
-.youtube .play-button,
-.youtube .play-button:before {
-    position: absolute;
-}
-.youtube .play-button,
-.youtube .play-button:before {
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate3d( -50%, -50%, 0 );
-            transform: translate3d( -50%, -50%, 0 );
-}
-.youtube iframe {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-    </style>
+    <style type="text/css">.youtube,.youtube .play-button,.youtube img{cursor:pointer}.wrapper{max-width:680px;margin:60px auto;padding:0 20px}.youtube{background-color:#000;margin-bottom:30px;position:relative;padding-top:56.25%;overflow:hidden}.youtube img{width:100%;top:-16.82%;left:0;opacity:.7}.youtube .play-button{width:90px;height:60px;background-color:#333;-webkit-box-shadow:0 0 30px rgba(0,0,0,.6);box-shadow:0 0 30px rgba(0,0,0,.6);z-index:1;opacity:.8;border-radius:6px}.youtube .play-button:before{content:"";border-style:solid;border-width:15px 0 15px 26px;border-color:transparent transparent transparent #fff}.youtube .play-button,.youtube .play-button:before,.youtube iframe,.youtube img{position:absolute}.youtube .play-button,.youtube .play-button:before{top:50%;left:50%;-webkit-transform:translate3d(-50%,-50%,0);transform:translate3d(-50%,-50%,0)}.youtube iframe{height:100%;width:100%;top:0;left:0}</style>
 </head>
 <body id="up">
     <!-- Preloader -->
@@ -120,7 +56,7 @@
                                 <a href="http:smartcity.samarindakota.go.id/maps">Peta</a>
                             </li>
                             <li>
-                                <a href="#blog">Artikel</a>
+                                <a href="#blog">Berita</a>
                             </li>
                             <li>
                                 <a href="#event">Acara</a>
@@ -169,7 +105,7 @@
                 <div class="col-md-4 wow fadeInUp">
                     <div class="info info-horizontal">
                         <div class="description">
-                            <h4 class="info-title">Samarinda Smart City</h4>
+                            <h4 class="info-title" style="font-weight: bold;font-size: 24px">Samarinda Smart City</h4>
                             <p>
                                 Konsep smart city di Samarinda dibuat berdasarkan 6 pilar: Smart Governance, Smart People, Smart Living, Smart Mobility, Smart Economy, dan Smart Environment. Smart city harus bermanfaat untuk seluruh masyarakat sehingga mereka bisa mendapatkan hidup yang lebih baik. Dengan smart city, data disajikan dengan lebih transparan.
 
@@ -242,7 +178,7 @@ Selain itu, smart city meningkatkan partisipasi warga seperti membuat data, apli
     <section class="blog" id="blog">
         <div class="container">
             <div class="section-header text-center">
-                <h2 class="title">Artikel</h2>
+                <h2 class="title">Berita</h2>
             </div>
             <div class="owl-carousel" id="blog-carousel">
                 <div class="item">
@@ -596,7 +532,7 @@ Selain itu, smart city meningkatkan partisipasi warga seperti membuat data, apli
                     <h6 class="typo-light hd">Link</h6>
                     <ul class="list-1">
                         <li><a href="http:smartcity.samarindakota.go.id/maps">Peta</a></li>
-                        <li><a href="#link">Artikel</a></li>
+                        <li><a href="#link">Berita</a></li>
                         <li><a href="#link">Acara</a></li>
                     </ul>
                 </div>
