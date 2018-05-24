@@ -1,1 +1,1 @@
-# The HexaCrew Co.
+# samarinda-smartcity
